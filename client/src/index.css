@@ -1,0 +1,31 @@
+@import "@databricks/appkit-ui/styles.css";
+
+:root {
+  --radius: 0.5rem;
+  --background: #eeede9;
+  --foreground: #0b2026;
+  --card: #ffffff;
+  --card-foreground: #0b2026;
+  --popover: #ffffff;
+  --popover-foreground: #0b2026;
+  --primary: #ff3621;
+  --primary-foreground: #ffffff;
+  --secondary: #f9f7f4;
+  --secondary-foreground: #0b2026;
+  --muted: #f9f7f4;
+  --muted-foreground: #5b686c;
+  --accent: #f9f7f4;
+  --accent-foreground: #0b2026;
+  --border: color-mix(in srgb, #0b2026 15%, transparent);
+  --input: color-mix(in srgb, #0b2026 15%, transparent);
+  --ring: #ff3621;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #eeede9;
+    --foreground: #0b2026;
+    --card: #ffffff;
+    --card-foreground: #0b2026;
+  }
+}
