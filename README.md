@@ -10,6 +10,8 @@ It helps a public-health NGO decide which Indian district should receive a limit
 
 Databricks Apps require authentication. The app is shared with the workspace `users` group.
 
+![Grounded Maternal Outreach Decision Cockpit](docs/grounded-app.png)
+
 ## The Scenario
 
 **User:** Asha, District Program Lead at a public-health NGO.
