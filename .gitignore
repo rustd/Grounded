@@ -4,6 +4,14 @@ client/dist/
 dist/
 build/
 .env
+.env.*
+!.env.example
+.databrickscfg
+.databricks.json
+*.pem
+*.key
+*.p8
+*.p12
 .databricks/
 .smoke-test/
 test-results/
